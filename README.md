@@ -51,7 +51,7 @@ the file attached.
 The output from the console on running the above code for the testing perfor-
 mance is mentioned as follows:-
 
-Training accuracy at step 0: 0.071
+*Training accuracy at step 0: 0.071
 Training accuracy at step 100: 0.92
 Training accuracy at step 200: 0.954
 Training accuracy at step 300: 0.979
@@ -60,7 +60,7 @@ Training accuracy at step 500: 0.993
 Training accuracy at step 600: 0.994
 Training accuracy at step 700: 0.996
 Training accuracy at step 800: 0.995
-Training accuracy at step 900: 1.0
+Training accuracy at step 900: 1.0*
 
 We can observe that an accuracy of 100% is achieved at the end of a 1000
 iterations with random sets of batch-sizes of 1000.Similarly, we note a testing
