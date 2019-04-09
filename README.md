@@ -1,6 +1,6 @@
 # DNN
 ### Simple DNN on MNIST
-##1 Algorithm and Python Code
+## 1 Algorithm and Python Code
 A DNN has been created here for a training and testing framework using the
 MNIST dataset using tensorflow. The deep neural network model created here
 consists of 5 hidden layers with dimension of the first hidden layer being 512.The
