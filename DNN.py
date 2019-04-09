@@ -8,12 +8,12 @@ mnist = input_data.read_data_sets(’MNIST_data’, one_hot=True)
 n_input = mnist.train.images.shape[1] # 28x28 = 784
 n_classes = 10 # digits 0-9
 def init_config(n_input, n_classes):#Setting the default graph
-ops.reset_default_graph()
-x = tf.placeholder("float32", [None, n_input], name=’x’)
-#The input set, to be replaced by batches
-y = tf.placeholder("float32", [None, n_classes], name=’y’)
-#The output training set, to be replaced by batches
-return x, y
+        ops.reset_default_graph()
+        x = tf.placeholder("float32", [None, n_input], name=’x’)
+        #The input set, to be replaced by batches
+        y = tf.placeholder("float32", [None, n_classes], name=’y’)
+        #The output training set, to be replaced by batches
+        return x, y
 def build_model_Llayers(x, y):
         # ops.reset_default_graph() # reset computation graph
         """
