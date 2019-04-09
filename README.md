@@ -1,6 +1,6 @@
 # DNN
-## Simple DNN on MNIST
-1 Algorithm and Python Code
+### Simple DNN on MNIST
+##1 Algorithm and Python Code
 A DNN has been created here for a training and testing framework using the
 MNIST dataset using tensorflow. The deep neural network model created here
 consists of 5 hidden layers with dimension of the first hidden layer being 512.The
@@ -45,3 +45,31 @@ the algorithm for a total of 1000 epochs.The training performance thus obtained
 is 100% and the testing performance achieved is 98.11% .A final comparison of
 the MNIST test labels and the network’s prediction is thus finally published in
 the file attached.
+
+## 2 Training and Testing Performance
+
+The output from the console on running the above code for the testing perfor-
+mance is mentioned as follows:-
+
+Training accuracy at step 0: 0.071
+Training accuracy at step 100: 0.92
+Training accuracy at step 200: 0.954
+Training accuracy at step 300: 0.979
+Training accuracy at step 400: 0.982
+Training accuracy at step 500: 0.993
+Training accuracy at step 600: 0.994
+Training accuracy at step 700: 0.996
+Training accuracy at step 800: 0.995
+Training accuracy at step 900: 1.0
+
+We can observe that an accuracy of 100% is achieved at the end of a 1000
+iterations with random sets of batch-sizes of 1000.Similarly, we note a testing
+accuracy of 98.11% from the following output value using the MNIST testing
+samples.
+Accuracy using test batch is:
+0.9811
+
+## 3 References
+• http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
+• https://github.com/andersy005/deep-learning-specialization-coursera
+• https://www.coursera.org/learn/neural-networks-deep-learning/
